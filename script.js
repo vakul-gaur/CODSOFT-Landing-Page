@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (currentIndex > 0) {
             slideTo(currentIndex - 1);
         } else {
-            slideTo(cards.length - 1); // Loop back to the last image
+            slideTo(cards.length - 1);
         }
     });
 
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (currentIndex < cards.length - 1) {
             slideTo(currentIndex + 1);
         } else {
-            slideTo(0); // Loop back to the first image
+            slideTo(0);
         }
     });
 });
